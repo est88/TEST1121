@@ -3,9 +3,11 @@
 // the WPILib BSD license file in the root directory of this project.
 
 #include "subsystems/ExampleSubsystem.h"
+#include <VictorSPX.h>
 
 ExampleSubsystem::ExampleSubsystem() {
   // Implementation of subsystem constructor goes here.
+
 }
 
 void ExampleSubsystem::Periodic() {
